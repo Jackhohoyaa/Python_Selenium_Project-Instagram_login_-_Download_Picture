@@ -66,8 +66,8 @@ def write_in():
     
 if __name__ == "__main__":
     instagram_login='https://www.instagram.com/'
-    account="selenium__test__"
-    password="jack061060028"
+    account=input("請輸入帳號:")
+    password=input("請輸入密碼:")
     name=input("請輸入欲下載圖片之帳號名稱:")
     connect(instagram_login)
     log_in(account,password)
